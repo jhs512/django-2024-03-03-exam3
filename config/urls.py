@@ -21,4 +21,6 @@ from pybo import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('pybo/', views.index),
+    path('pybo2/', views.index),
+    path('pybo3/', views.hello),
 ]
