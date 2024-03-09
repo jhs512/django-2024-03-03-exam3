@@ -6,3 +6,6 @@ def index(request):
 
 def hello(request):
     return HttpResponse("Hello World!")
+
+def hello2(request):
+    return HttpResponse("Hello 2!!")
